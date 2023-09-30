@@ -1,0 +1,79 @@
+h1{
+  color: #ff6200;
+}
+
+nav a{
+color: #ff0000;
+text-decoration: none;
+list-style: none;
+font-size: 16px;
+text-transform: uppercase;
+}
+
+nav a:hover{
+  color: rgb(14, 14, 14);
+  text-decoration: underline;
+  }
+
+  nav li{
+    list-style: none;
+    display: inline;
+    border: 1px solid #ff6200;
+    padding: 10px;
+    }
+
+  .palos{
+    width: 300px;
+    height: 250px;
+    border: 1px solid 
+  }
+
+  
+
+
+.banner{
+ width: 200px;
+ height:150px;
+
+}
+
+.logoprincial{
+  width: 150px;
+  height:150px;
+
+}
+
+.marcadepalos{
+  width: 800px;
+  height: 200px;
+}
+
+.iconos{
+  display: flex;
+  flex-direction: row-reverse;
+  color: black;
+  margin: 60px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.btnenviar{
+  background-color: white';
+  border-color: #ff6200;
+  color: black;
+}
+
+.btheader{
+  border-color: solid gray 2px;
+  color: #ff6200;
+}
+
+.btheader:hover{
+  background-color: gray;
+  color:white;
+  border-color: solid gray 2px;
+
+}
+
+.menu{
+  background-color: rgb(235, 213, 213);
+}
