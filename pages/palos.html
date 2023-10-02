@@ -10,57 +10,47 @@
   </head>
   <body>
 
-    <header>
-        <h1>HockeyPalo</h1>
-          <img src="../img/logo.png" alt="Logo" class="logoprincial"/>
-          <div class="iconos">
-            <h3>Carrito <i class="bi bi-cart2"> </i>Usuario <i class="bi bi-person"></i></h3>
+    <header>      
+      <div class="iconos" style="border: 1px solid red;">
+        <div class="col-3"><h1>HockeyPalo</h1></div>
+        <div class="col-9"><h3>Carrito <i class="bi bi-cart2"> </i>Usuario <i class="bi bi-person"></i></h3></div>           
+      </div>
+         <nav class="navbar navbar-expand-lg  menu">
+          <div class="container-fluid">
+            <img src="../img/logo.png" alt="Logo" class="logoprincial"/>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="../index.html">Incio</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="ofertas.html">Ofertas</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="palos.html">Palos</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="accesorios.html">Accesorios</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="contacto.html">Contacto</a>
+               </li>
+             </ul>
+               <form class="d-flex" role="search">
+                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                 <button class="btn btn-outline-success btheader" type="submit">Search</button>
+               </form>
           </div>
-          <nav class="navbar navbar-expand-lg  menu">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Incio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="ofertas.html">Ofertas</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="palos.html">Palos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="accesorios.html">Accesorios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                  </li>
-                  
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success btheader" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-  
-    </header>
-
-
-  
-
+         </nav>
+     </header>
      <main>
         <h2>Destacados</h2>
         <section>
          <h3 class="text-center">Mayores</h3>
-         <div class="container-fluid">
-          <div class="row">
+          <div class="container-fluid">
+           <div class="row">
           
-             <div class="col-3" style="border: 2px solid #ff6200;">
+             <div class="col-12 col-md-3" style="border: 2px solid #ff6200;">
                  <img src="../img/palo1.jpg"alt="palos mayores"  class="palos">
                  <p>Palo Malik</p> 
                  <p>Composición: Carbono 5%  - Aramida 5%  - Fibra Vidrio 90% </p>
@@ -82,23 +72,23 @@
                   <p>Composición: Carbono 90% - Aramida 5% - Fibra de Vidrio 5%</p>
                   <p><strong>$211.860,00</strong></p>
                   <button type="Agregar al carrito" class="carrito">Agregar al carrito</button>
-            </div>
+             </div>
 
-            <div class="col-3 col-md-3" style="border: 2px solid #ff6200;">
+             <div class="col-12 col-md-3" style="border: 2px solid #ff6200;">
                   <img src="../img/palo6.jpeg"alt="palos mayores" class="palos">
                   <p>Palo Adidas</p> 
                   <p>Composición: Carbono 55% - Aramida 5% - Fibra de Vidrio 40%</p>
                   <p><strong>$130.680,00</strong></p>
                   <button type="Agregar al carrito" class="carrito">Agregar al carrito</button>
-            </div>
-
+             </div>
+           </div>    
           </div>
         </section>
       
         <section>
          <h3 class="text-center">Kids</h3>
          <div class="container-fluid">
-          <div class="row">
+         <div class="row">
              
             <div class="col-12 col-md-3" style="border: 2px solid #ff6200;">
               <img src="../img/palo3.jpg"alt="palo kids"  class="palos"> 
@@ -111,7 +101,7 @@
             <div class="col-12 col-md-3" style="border: 2px solid #ff6200;">
               <img src="../img/palo4.jpeg"alt="palo kids" class="palos"> 
               <p>Palo Malik</p> 
-              <p>Composición: Madera Reforzada - pintado</p>
+              <p>Composición: Madera Reforzada</p>
               <p><strong>$27.500,00</strong></p>
               <button type="Agregar al carrito" class="carrito">Agregar al carrito</button>
             </div>
