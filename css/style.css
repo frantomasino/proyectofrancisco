@@ -38,7 +38,7 @@ nav a:hover{
 }
 
 .logoprincial{
-  height: 100px;
+  height: 150px;
 
 }
 
@@ -76,6 +76,7 @@ nav a:hover{
 .menu{
   background-color: rgb(235, 213, 213);
 }
+
 body {
   margin: auto;
   max-width: 1300px;
