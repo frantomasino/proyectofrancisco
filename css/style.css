@@ -47,13 +47,7 @@ nav a:hover{
 
 }
 
-.iconos{
-  display: flex;
-  flex-direction: row-reverse;
-  color: black;
-  margin: 10px;
-  font-family: 'Courier New', Courier, monospace;
-}
+
 
 .btnenviar{
   background-color: white;
@@ -82,3 +76,14 @@ body {
   max-width: 1300px;
 }
 
+.iconos{
+  display: flex;
+  flex-direction: row-reverse;
+  color: black;
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.carousel-control-next-icon{
+  color:#ff0000!important;
+}
