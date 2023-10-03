@@ -20,12 +20,14 @@ nav a:hover{
     display: inline;
     border: 1px solid #ff6200;
     padding: 10px;
-    }
+    
+}
 
   .palos{
     width: 300px;
     height: 250px;
-    border: 1px solid 
+    border: 0.5px solid 
+    
   }
 
   
@@ -84,6 +86,11 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.carousel-control-next-icon{
-  color:#ff0000!important;
+.fondo{
+  background-color: gray;
+
+}
+
+.borde{ 
+  border: 1px solid red;
 }
