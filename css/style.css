@@ -1,5 +1,6 @@
 h1{
-  color: #ff6200;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 nav a{
@@ -30,25 +31,10 @@ nav a:hover{
     
   }
 
-  
-
-
-.banner{
- width: 200px;
- height:150px;
-
-}
-
-.logoprincial{
+  .logoprincial{
   height: 150px;
 
 }
-
-.marcadepalos{
-  width: 800px;
-
-}
-
 
 
 .btnenviar{
@@ -58,7 +44,7 @@ nav a:hover{
 }
 
 .btheader{
-  border-color: solid gray 2px;
+  border-color: 2px solid gray ;
   color: #ff6200;
 }
 
@@ -81,16 +67,17 @@ body {
 .iconos{
   display: flex;
   flex-direction: row-reverse;
-  color: black;
+  color: white;
   margin: 10px;
   font-family: 'Courier New', Courier, monospace;
 }
 
-.fondo{
-  background-color: gray;
-
-}
 
 .borde{ 
-  border: 1px solid red;
+  border: 1px solid black;
 }
+
+
+.hockey{
+  background-color: rgb(190, 36, 36);
+  }
