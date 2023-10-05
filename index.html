@@ -13,7 +13,7 @@ integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2
   <body>
     <header>      
       <div class="hockey">
-        <div class="row" style="border: 1px solid black;">
+        <div class="row">
           <div class="col-3"><h1>HockeyPalo</h1></div>
           <div class="col-9" style="text-align: right;"><h3> <i class="bi bi-cart2"> </i> <i class="bi bi-person"></i></h3></div>
         </div>           
@@ -81,14 +81,19 @@ integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2
         <div class="my-5 ">
           <img src="img/marcas.jpg" alt="marcas" class="col-12" style="border: 1px solid black;">
         </div>
-       <form>
-        <div class="my-3 borde">
-          Newsletter<input placeholder="Newsletter" type="email">
-        </div>
-       </form>
+      <form>
+        <h5>Suscríbete a nuestro boletín</h5>
+          <p>Resumen mensual de nuestras novedades y novedades.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Dirreción de correo electrónico">
+            <button class="btn btn-outline-success btheader" type="button">Subscribe</button>
+          </div>
+
+      </form>
     </main>  
       <footer>
-        <div class="col-12">
+        <div class="col-12 my-3">
           <p><strong>Mail</strong></p>
               <ul>
                   <li>hockeypalo@gmail.com</li>
