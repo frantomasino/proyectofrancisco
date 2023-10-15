@@ -65,8 +65,7 @@ body {
 }
 
 .iconos{
-  display: flex;
-  flex-direction: row-reverse;
+  
   color: white;
   margin: 10px;
   font-family: 'Courier New', Courier, monospace;
@@ -86,3 +85,4 @@ body {
     background-color: #f5f5f5;
     border: 1px solid gray;
   }
+
