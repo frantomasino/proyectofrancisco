@@ -1,0 +1,79 @@
+h1 {
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav a {
+  color: #ff0000;
+  text-decoration: none;
+  list-style: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+nav a:hover {
+  color: rgb(14, 14, 14);
+  text-decoration: underline;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  border: 1px solid #ff6200;
+  padding: 10px;
+}
+
+.palos {
+  width: 300px;
+  height: 250px;
+  border: 0.5px solid;
+}
+
+.logoprincial {
+  height: 150px;
+}
+
+.btnenviar {
+  background-color: white;
+  border-color: #ff6200;
+  color: black;
+}
+
+.btheader {
+  border: 2px solid gray;
+  color: #ff6200;
+}
+.btheader:hover {
+  background-color: gray;
+  color: white;
+  border: solid gray 2px;
+}
+
+.menu {
+  background-color: rgb(235, 213, 213);
+}
+
+body {
+  margin: auto;
+  max-width: 1300px;
+}
+
+.iconos {
+  color: white;
+  margin: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.borde {
+  border: 1px solid black;
+}
+
+.hockey {
+  background-color: #f5f5f5;
+}
+
+.contenedor-palos {
+  background-color: #f5f5f5;
+  border: 1px solid gray;
+}
+
+/*# sourceMappingURL=styles.css.map */
