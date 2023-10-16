@@ -78,10 +78,14 @@ nav {
   filter: invert(100%);
 }
 
-.sale-background {
-  background-size: 150px;
-  background-image: url("../img/fondo-ofertas.avif");
-  background-repeat: repeat;
+.btn-cart {
+  --bs-btn-color: #ffa500;
+  --bs-btn-bg: white;
+  --bs-btn-border-color: #ffa500;
+
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-border-color: #ffa500;
+  --bs-btn-hover-bg: #ffa500;
 }
 
 .sale-background {
