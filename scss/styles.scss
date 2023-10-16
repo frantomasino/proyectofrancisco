@@ -1,87 +1,95 @@
 @import "variables";
 
-
-
-
-
-h1 {
-    color:$titulo;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  nav a {
+nav {
+  a {
     color: $navegador;
     text-decoration: none;
     list-style: none;
     font-size: 16px;
     text-transform: uppercase;
-  
-    &:hover {
-      color: rgb(14, 14, 14);
-      text-decoration: underline;
 
+    &:hover {
+      color: $activo !important;
+    }
+  }
+
+  li {
+    list-style: none;
+    border: none;
+    display: inline;
+    padding: 10px;
   }
 }
 
-nav li {
-    list-style: none;
-    display: inline;
-    border: 1px solid #ff6200;
-    padding: 10px;
-  }
-  
-  .palos {
-    width: 300px;
-    height: 250px;
-    border: 0.5px solid;
-  }
-  
-  .logoprincial {
-    height: 150px;
-  }
-  
-  .btnenviar {
-    background-color: white;
-    border-color: $botonenviar;
-    color: black;
-  }
-  
-  .btheader {
-    border: 2px solid gray;
-    color: $botonenviar;
-  
-    &:hover {
-      background-color: gray;
-      color: white;
-      border: solid gray 2px;
-    }
-  }
-  
-  .menu {
-    background-color: rgb(235, 213, 213);
-  }
-  
-  body {
-    margin: auto;
-    max-width: 1300px;
-  }
-  
-  .iconos {
-    color: $iconos;
-    margin: 10px;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .borde {
-    border: 1px solid black;
-  }
-  
-  .hockey {
-    background-color: #f5f5f5;
-  }
-  
-  .contenedor-palos {
-    background-color: #f5f5f5;
-    border: 1px solid gray;
- }
+.palos {
+  width: 300px;
+  height: 250px;
+  border: 0.5px solid;
+}
 
+.logoprincial {
+  height: 100px;
+}
+
+.btnenviar {
+  background-color: white;
+  border-color: $activo;
+  color: black;
+}
+
+.btheader {
+  border: 2px solid gray;
+  color: $activo;
+
+  &:hover {
+    background-color: gray;
+    color: white;
+    border: solid gray 2px;
+  }
+}
+
+.web-container {
+  margin: auto;
+  max-width: 1300px;
+}
+
+.iconos {
+  color: $iconos-nav;
+  font-size: 25px;
+  margin: 20px;
+  font-family: "Courier New", Courier, monospace;
+
+  i:hover {
+    color: $activo;
+    cursor: pointer;
+  }
+}
+
+.hockey {
+  background-color: #f5f5f5;
+}
+
+.contenedor-palos {
+  background-color: #f5f5f5;
+  border: 1px solid gray;
+}
+
+.carousel-indicators {
+  filter: invert(100%);
+}
+
+.btn-cart {
+  --bs-btn-color: #ffa500;
+  --bs-btn-bg: white;
+  --bs-btn-border-color: #ffa500;
+
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-border-color: #ffa500;
+  --bs-btn-hover-bg: #ffa500;
+}
+
+.sale-background {
+  background-size: 150px;
+  background-image: url("../img/fondo-ofertas.avif");
+  background-repeat: repeat;
+}
