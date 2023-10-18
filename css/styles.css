@@ -1,13 +1,3 @@
-h1 {
-  color: #0077B5;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.accordion-item {
-  background-color: #f5f5f5;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
 nav a {
   color: #ff0000;
   text-decoration: none;
@@ -63,12 +53,7 @@ nav li {
 .ofertas:hover {
   color: black;
   text-decoration: underline;
-  transform: translate(7px, 9px);
-}
-
-.accordion-item {
-  background-color: #F5F5F5;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transform: translate(8px, 10px);
 }
 
 .hockey {
@@ -81,11 +66,33 @@ nav li {
 }
 
 .cdestacados {
-  color: #666666;
+  color: white;
+  background-color: black;
+  padding: 15px;
 }
 
 .coferta {
-  color: black;
+  color: #3366CC;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contac {
+  color: #666666;
+}
+
+h1 {
+  color: #0077B5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.accordion-item {
+  background-color: #f5f5f5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cpalos {
+  color: #3366CC;
+  padding: 5px;
 }
 
 .btn-cart {
@@ -221,12 +228,14 @@ nav li {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.cdestacados {
+.accesorios {
   color: #666666;
 }
 
 .coferta {
-  color: black;
+  color: #3366CC;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */

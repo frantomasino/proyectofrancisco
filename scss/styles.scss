@@ -1,10 +1,9 @@
 @import "variables";
-@import "typography";
 @import "nav";
 @import "components";
 @import "layout";
-@import "sections";
-@import "buttoneiconos.scss";
+@import "seccionytipografia";
+@import "botoneiconos";
 
 %generic-button {
   background-color: white;
@@ -126,10 +125,12 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-  .cdestacados{ 
+  .accesorios{ 
     color: #666666;
   }
 
 .coferta{
-  color:black;
+  color: #3366CC;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
 }
