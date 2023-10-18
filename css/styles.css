@@ -3,6 +3,11 @@ h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+.accordion-item {
+  background-color: #f5f5f5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 nav a {
   color: #ff0000;
   text-decoration: none;
@@ -18,6 +23,112 @@ nav li {
   border: none;
   display: inline;
   padding: 10px;
+}
+
+.palos {
+  width: 300px;
+  height: 250px;
+  border: 0.5px solid;
+}
+
+.logoprincial {
+  height: 100px;
+}
+
+.btnenviar {
+  background-color: white;
+  border-color: #ff5733;
+  color: black;
+}
+
+.web-container {
+  margin: auto;
+  max-width: 1300px;
+}
+
+.sale-background {
+  background-size: 150px;
+  background-image: url("../img/fondo-ofertas.avif");
+  background-repeat: repeat;
+}
+
+.derecho {
+  background-color: white;
+}
+
+.ofertas {
+  text-decoration: none;
+  font-size: 1rem;
+}
+.ofertas:hover {
+  color: black;
+  text-decoration: underline;
+  transform: translate(7px, 9px);
+}
+
+.accordion-item {
+  background-color: #F5F5F5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.hockey {
+  background-color: #f5f5f5;
+}
+
+.contenedor-palos {
+  background-color: #f5f5f5;
+  border: 1px solid gray;
+}
+
+.cdestacados {
+  color: #666666;
+}
+
+.coferta {
+  color: black;
+}
+
+.btn-cart {
+  --bs-btn-color: $color-botns;
+  --bs-btn-bg: $iconos;
+  --bs-btn-border-color: $color-botns;
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-border-color: $color-botns;
+  --bs-btn-hover-bg: $color-botns;
+  margin-bottom: 15px;
+}
+
+.btnenviar {
+  background-color: white;
+  border-color: #ff5733;
+  color: black;
+}
+
+.iconos {
+  color: black;
+  font-size: 25px;
+  margin: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+.iconos i:hover {
+  color: #ff5733;
+  cursor: pointer;
+}
+
+.btnenviar {
+  background-color: white;
+  border-color: #ff5733;
+  color: black;
+}
+
+.btnenviar {
+  margin-bottom: 15px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
 }
 
 .palos {
@@ -108,6 +219,14 @@ nav li {
 .accordion-item {
   background-color: #F5F5F5;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cdestacados {
+  color: #666666;
+}
+
+.coferta {
+  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */

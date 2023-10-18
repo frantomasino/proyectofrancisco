@@ -1,0 +1,33 @@
+.web-container {
+    margin: auto;
+    max-width: 1300px;
+  }
+
+  .sale-background {
+    background-size: 150px;
+    background-image: url("../img/fondo-ofertas.avif");
+    background-repeat: repeat;
+  }
+  
+  .derecho{
+    background-color: white;
+  }
+  
+  .ofertas{ 
+    text-decoration: none;
+    font-size: 1rem;
+   
+    &:hover{
+      color:$iconos-nav;
+      text-decoration: underline;
+      transform: translate(7px, 9px);
+     }
+  }
+
+ 
+  .accordion-item{
+    background-color: #F5F5F5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  
+    

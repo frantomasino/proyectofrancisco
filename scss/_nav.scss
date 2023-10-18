@@ -1,0 +1,20 @@
+nav {
+    a {
+      color: $navegador;
+      text-decoration: none;
+      list-style: none;
+      font-size: 16px;
+      text-transform: uppercase;
+  
+      &:hover {
+        color: $activo !important;
+      }
+    }
+  
+    li {
+      list-style: none;
+      border: none;
+      display: inline;
+      padding: 10px;
+    }
+  }

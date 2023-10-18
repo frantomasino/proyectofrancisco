@@ -1,0 +1,29 @@
+.btn-cart {
+    --bs-btn-color: $color-botns;
+    --bs-btn-bg:  $iconos;
+    --bs-btn-border-color: $color-botns;
+  
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-border-color: $color-botns;
+    --bs-btn-hover-bg: $color-botns; 
+     margin-bottom: 15px;
+   }  
+
+   .btnenviar {
+    background-color: $iconos;
+    border-color: $activo;
+    color: black;
+  }
+  
+
+  .iconos {
+    color: $iconos-nav;
+    font-size: 25px;
+    margin: 20px;
+    font-family: "Courier New", Courier, monospace;
+  
+    i:hover {
+      color: $activo;
+      cursor: pointer;
+    }
+  }

@@ -1,34 +1,35 @@
 @import "variables";
+@import "typography";
+@import "nav";
+@import "components";
+@import "layout";
+@import "sections";
+@import "buttoneiconos.scss";
 
-h1{ 
-  color: $color-principal;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+%generic-button {
+  background-color: white;
+  border-color: $activo;
+  color: black;
+}
+
+.btnenviar {
+  @extend %generic-button;
+  margin-bottom: 15px;
+}
+
+
+%header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.header {
+  @extend %header;
 }
 
 
 
-
-
-nav {
-  a {
-    color: $navegador;
-    text-decoration: none;
-    list-style: none;
-    font-size: 16px;
-    text-transform: uppercase;
-
-    &:hover {
-      color: $activo !important;
-    }
-  }
-
-  li {
-    list-style: none;
-    border: none;
-    display: inline;
-    padding: 10px;
-  }
-}
 
 .palos {
   width: 300px;
@@ -124,3 +125,11 @@ nav {
   background-color: #F5F5F5;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+
+  .cdestacados{ 
+    color: #666666;
+  }
+
+.coferta{
+  color:black;
+}

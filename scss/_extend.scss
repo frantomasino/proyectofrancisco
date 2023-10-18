@@ -1,0 +1,12 @@
+
+%generic-button {
+    background-color: white;
+    border-color: $activo;
+    color: black;
+  }
+  
+  .btnenviar {
+    @extend %generic-button;
+    margin-bottom: 15px;
+  }
+  
