@@ -1,5 +1,6 @@
 h1 {
-  color: #0077b5;
+  color: #0077B5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 nav a {
@@ -92,6 +93,21 @@ nav li {
 
 .derecho {
   background-color: white;
+}
+
+.ofertas {
+  text-decoration: none;
+  font-size: 1rem;
+}
+.ofertas:hover {
+  color: black;
+  text-decoration: underline;
+  transform: translate(7px, 9px);
+}
+
+.accordion-item {
+  background-color: #F5F5F5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */

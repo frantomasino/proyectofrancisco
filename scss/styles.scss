@@ -2,6 +2,7 @@
 
 h1{ 
   color: $color-principal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 
@@ -95,7 +96,7 @@ nav {
   --bs-btn-hover-border-color: #ffa500;
   --bs-btn-hover-bg: #ffa500;
    margin-bottom: 15px;
-
+   
 }
 
 .sale-background {
@@ -107,3 +108,19 @@ nav {
 .derecho{
   background-color: white;
 }
+
+.ofertas{ 
+  text-decoration: none;
+  font-size: 1rem;
+ 
+  &:hover{
+    color:$iconos-nav;
+    text-decoration: underline;
+    transform: translate(7px, 9px);
+   }
+}
+
+.accordion-item{
+  background-color: #F5F5F5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
