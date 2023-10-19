@@ -67,7 +67,8 @@ nav li {
 
 .cdestacados {
   color: white;
-  background-color: rgba(124, 94, 37, 0.3647058824);
+  background-color: black;
+  margin-top: 50px;
   padding: 15px;
 }
 
@@ -96,6 +97,7 @@ h1 {
 .cpalos {
   color: #3366CC;
   padding: 5px;
+  margin-top: 50px;
 }
 
 .btn-cart {
