@@ -67,7 +67,7 @@ nav li {
 
 .cdestacados {
   color: white;
-  background-color: black;
+  background-color: rgba(124, 94, 37, 0.3647058824);
   padding: 15px;
 }
 
@@ -81,7 +81,6 @@ nav li {
 }
 
 h1 {
-  color: #0077B5;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background: linear-gradient(to right, #0077B5, #00A6ED, #7FB3D0);
   -webkit-background-clip: text;
