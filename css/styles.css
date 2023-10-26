@@ -56,6 +56,10 @@ nav li {
   transform: translate(8px, 10px);
 }
 
+.separador-arriba {
+  margin-top: 50px;
+}
+
 .hockey {
   background-color: #f5f5f5;
 }
