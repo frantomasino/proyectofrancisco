@@ -17,21 +17,19 @@
 .coferta{
   color: #3366CC;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
   
 }
 
 .contac{
-  color: #666666;
-}
+  color:   #3366CC;
+  margin-top: 50px;
+  padding: 5px;
 
-h1{ 
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background: linear-gradient(to right,  #0077B5,  #00A6ED, #7FB3D0);
-  -webkit-background-clip: text;
-  color: transparent;
-  text-align: center;
 
 }
+
+
 
 .accordion-item{
   background-color: $background-color;
