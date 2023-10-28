@@ -9,36 +9,36 @@
   
   .cdestacados{ 
     color: white;
-    background-color: black;
+    background-color: $background-secuandario;
     margin-top: 50px;
     padding: 15px;
   }
 
 .coferta{
-  color: #3366CC;
+  color:black;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 50px;
-  
+  padding: 15px;
+  background-color: grey;
 }
 
 .contac{
-  color:   #3366CC;
+  color:   black;
   margin-top: 50px;
-  padding: 5px;
-
-
+  padding: 15px;
+  background-color:  #807e7e;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 .accordion-item{
   background-color: $background-color;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+}
 
-  .cpalos{
+.cpalos{
     color:   #3366CC;
-    padding: 5px;
+    padding: 15px;
     margin-top: 50px;
-  }
+    background-color: $background-secuandario;
+}
   
