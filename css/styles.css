@@ -26,9 +26,7 @@ nav li {
 }
 
 .btnenviar {
-  background-color: white;
-  border-color: #ff5733;
-  color: black;
+  margin-bottom: 15px;
 }
 
 .web-container {
@@ -69,14 +67,6 @@ h1 {
   margin-top: 50px;
 }
 
-.hockey {
-  background-color: #f5f5f5;
-}
-
-.contenedor-palos {
-  background-color: #f5f5f5;
-  border: 1px solid gray;
-}
 
 .cdestacados {
   color: black;
@@ -111,6 +101,10 @@ h1 {
   padding: 15px;
   margin-top: 50px;
   background-color: grey;
+}
+
+.accesorios {
+  color: #666666;
 }
 
 .btn-cart {
@@ -217,10 +211,6 @@ h1 {
   margin-bottom: 15px;
 }
 
-.derecho {
-  background-color: white;
-}
-
 .ofertas {
   text-decoration: none;
   font-size: 1rem;
@@ -229,10 +219,6 @@ h1 {
   color: black;
   text-decoration: underline;
   transform: translate(7px, 9px);
-}
-
-.accesorios {
-  color: #666666;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -16,7 +16,6 @@
   margin-bottom: 15px;
 }
 
-
 %header {
   font-size: 24px;
   font-weight: bold;
@@ -27,16 +26,11 @@
   @extend %header;
 }
 
-
-
-
 .palos {
   width: 300px;
   height: 250px;
   border: 0.5px solid;
 }
-
-
 
 .btnenviar {
   background-color: white;
@@ -113,6 +107,3 @@
    }
 }
 
-.accesorios{ 
-    color: #666666;
-  }
